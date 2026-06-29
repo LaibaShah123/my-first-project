@@ -8,3 +8,4 @@ discount = total * .01
 print("Discount is:", discount)
 final_amount = total - discount
 print("final amount is:", final_amount)
+
