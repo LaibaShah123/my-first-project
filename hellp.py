@@ -1,11 +1,10 @@
-print("Hello World")
-print("my name is laiba")
+bag = 1200
+shoes = 3500
+belt =  800
 
-name = "Laiba"
-age =  22
-score = 95.5
-passed = True
-empty = None
-
-print("Hi! my name is",end = " ")
-print("Laiba")
+total = bag + shoes + belt
+print("Total is:", total)
+discount = total * .01
+print("Discount is:", discount)
+final_amount = total - discount
+print("final amount is:", final_amount)
